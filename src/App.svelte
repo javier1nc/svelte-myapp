@@ -3,7 +3,14 @@
   let year = 2022;
 
   $: uppecaseName = name.toUpperCase();
-  $: name;
+
+  $: console.log(name);
+
+  $: if (name=== "Javier"){
+  console.log('It runs!')
+    year = 2023;
+  }
+
 
   function incrementYear(){
     year += 1;
