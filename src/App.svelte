@@ -1,11 +1,10 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
   export let name;
+  let year = 2022;
 </script>
 
 <main>
-  <h1>Hello {name}</h1>
+  <h1>Hello {name}, {year}</h1>
 </main>
 
 <style>
