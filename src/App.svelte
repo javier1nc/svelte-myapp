@@ -18,12 +18,14 @@
   function  changeName() {
     name = 'Javier';
   }
+
 </script>
 
 <main>
   <h1>Hello {uppecaseName}, {year}</h1>
   <button on:click="{incrementYear}">Change Yeard</button>
-  <button on:click="{changeName}">Change Name</button>
+<!--  <button on:click="{changeName}">Change Name</button>-->
+  <input type="text" value="{name}" on:input={}>
 </main>
 
 <style>
